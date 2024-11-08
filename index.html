@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <form>
+        <fieldset>
+    <legend>
+        dados pessoais
+    </legend>
+    <label for="nome">nome</label>
+    <input id="nome" type="text">
+</div>
+<div>
+    <label for="email">Email</label>
+    <input id="Email">
+</div>
+<div>
+    <label for="telefone">telefone</label>
+    <input id="telefone" type="text">
+        </fieldset>
+        
+
+        <fieldset>
+        <legend>dados cadastrais</legend>
+        <div>
+            <label for="endereço">endereço</label>
+            <input id="text" type="text" placeholder="Av/Rua"">
+            <div>
+                <label for="bairro">bairro</label>
+                <input id="bairro" type="text">
+                <div>
+                    <label for="cidade">cidade</label>
+                    <input id="cidade" type="text" list="cidades">
+                    <datalist id="cidades">
+                        <option>Fortaleza</option>
+                        <option >Fortim</option>
+                        <option >Caucaia</option>
+                        <option >Eusebio</option>
+                        <option >Maracanau</option>
+                        <option >Maranguape</option>
+                    </datalist>
+                    <div>
+                        <label for="estado">estado</label>
+                        <select  id="estado">
+                            <option disabled selected>escolha um estado</option>
+                            <option >Acre</option>
+                            <option >Bahia</option>
+                            <option >Ceará</option>
+                            <option >Destrito Federal</option>
+                        </select>
+                    </div>
+
+
+                </div>
+            </div>
+        
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>dados do curso</legend>
+            <div>
+                <label>cursos</label>
+                <ul>
+                    <li>
+                        <label>
+                            <input type="checkbox">
+                            Fullstack
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox">
+                            Marketing
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox">
+                            ui/ux
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox">
+                            Data Analytics
+                        </label>
+                    </li>
+                </ul>
+
+            </div>
+            
+        </fieldset>
+    </form>
+    
+</body>
+</html>
